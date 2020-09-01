@@ -19,7 +19,7 @@ func gui() {
 	a := app.New()
 
 	w := a.NewWindow("Hello")
-	w.SetFullScreen(true)
+	w.SetFullScreen(false)
 	x := widget.NewButton("My button", func() {
 	})
 	x.Alignment = widget.ButtonAlignTrailing
